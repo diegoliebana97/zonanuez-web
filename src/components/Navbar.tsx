@@ -32,16 +32,16 @@ export default function Navbar() {
   const getLinkClassName = (id: string) => {
     const isActive = activeSection === id;
     return `inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors ${isActive
-        ? 'border-brand-green text-brand-brown'
-        : 'border-transparent text-stone-500 hover:border-stone-300 hover:text-brand-brown'
+      ? 'border-brand-green text-brand-brown'
+      : 'border-transparent text-stone-500 hover:border-stone-300 hover:text-brand-brown'
       }`;
   };
 
   const getMobileLinkClassName = (id: string) => {
     const isActive = activeSection === id;
     return `block pl-3 pr-4 py-2 border-l-4 text-base font-medium transition-colors ${isActive
-        ? 'bg-brand-cream/30 border-brand-green text-brand-green'
-        : 'border-transparent text-stone-500 hover:bg-stone-50 hover:border-stone-300 hover:text-brand-brown'
+      ? 'bg-brand-cream/30 border-brand-green text-brand-green'
+      : 'border-transparent text-stone-500 hover:bg-stone-50 hover:border-stone-300 hover:text-brand-brown'
       }`;
   };
 
@@ -68,7 +68,7 @@ export default function Navbar() {
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:items-center">
             <a
-              href="https://wa.me/54922363955644?text=Hola,%20me%20gustaría%20hacer%20un%20pedido%20de%20frutos%20secos."
+              href="https://wa.me/5492234395644?text=Hola,%20me%20gustaría%20hacer%20un%20pedido%20de%20frutos%20secos."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-brand-green hover:bg-[#467326] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-green transition-colors"

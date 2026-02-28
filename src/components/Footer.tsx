@@ -30,12 +30,12 @@ export default function Footer() {
               <li className="flex items-center gap-2">
                 <MessageCircle className="h-5 w-5 text-brand-green" />
                 <a
-                  href="https://wa.me/54922363955644?text=Hola,%20tengo%20una%20consulta."
+                  href="https://wa.me/5492234395644?text=Hola,%20tengo%20una%20consulta."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-brand-green transition-colors"
                 >
-                  +54 9 223 639-5564
+                  +54 9 223 439-5644
                 </a>
               </li>
               <li className="flex gap-4 mt-4">
