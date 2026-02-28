@@ -64,8 +64,8 @@ export default function Features() {
             <img
               className="relative mx-auto rounded-2xl shadow-xl border-4 border-brand-cream"
               width={490}
-              src="https://images.unsplash.com/photo-1590004953392-5aba2e72269a?auto=format&fit=crop&q=80&w=800"
-              alt="Frutos secos surtidos"
+              src="https://images.unsplash.com/photo-1560594030-41f72a9fb96f?auto=format&fit=crop&q=80&w=800"
+              alt="Árbol de nueces"
               referrerPolicy="no-referrer"
             />
           </div>
