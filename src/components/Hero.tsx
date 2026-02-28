@@ -27,7 +27,7 @@ export default function Hero() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="https://wa.me/1234567890?text=Hola,%20me%20gustaría%20hacer%20un%20pedido%20de%20frutos%20secos."
+                    href="https://wa.me/54922363955644?text=Hola,%20me%20gustaría%20hacer%20un%20pedido%20de%20frutos%20secos."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-brand-green bg-brand-cream hover:bg-[#E8D5B7] md:py-4 md:text-lg md:px-10 transition-colors"
@@ -52,6 +52,6 @@ export default function Hero() {
           }}
         />
       </div>
-    </div>
+    </div >
   );
 }

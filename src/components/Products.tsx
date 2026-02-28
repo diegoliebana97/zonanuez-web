@@ -68,7 +68,7 @@ export default function Products() {
                     {product.price} <span className="text-sm font-medium text-stone-400">/{product.unit}</span>
                   </p>
                   <a
-                    href={`https://wa.me/1234567890?text=Hola,%20me%20interesa%20comprar%20${product.name}.`}
+                    href={`https://wa.me/54922363955644?text=Hola,%20me%20interesa%20comprar%20${product.name}.`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 rounded-full bg-brand-cream/50 text-brand-green hover:bg-brand-cream transition-colors"

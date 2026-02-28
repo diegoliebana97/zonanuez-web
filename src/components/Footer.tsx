@@ -14,7 +14,7 @@ export default function Footer() {
               Tu fuente confiable de frutos secos premium. Calidad, frescura y sabor natural directo a tu hogar.
             </p>
           </div>
-          
+
           <div>
             <h3 className="text-white font-semibold mb-4 uppercase tracking-wider text-sm">Enlaces Rápidos</h3>
             <ul className="space-y-2">
@@ -29,13 +29,13 @@ export default function Footer() {
             <ul className="space-y-2">
               <li className="flex items-center gap-2">
                 <MessageCircle className="h-5 w-5 text-brand-green" />
-                <a 
-                  href="https://wa.me/1234567890?text=Hola,%20tengo%20una%20consulta." 
-                  target="_blank" 
+                <a
+                  href="https://wa.me/54922363955644?text=Hola,%20tengo%20una%20consulta."
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-brand-green transition-colors"
                 >
-                  +56 9 1234 5678
+                  +54 9 223 639-5564
                 </a>
               </li>
               <li className="flex gap-4 mt-4">
@@ -51,7 +51,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-brand-cream/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-brand-cream/60">
             &copy; {new Date().getFullYear()} Zona Nuez. Todos los derechos reservados.
