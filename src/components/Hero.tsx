@@ -1,4 +1,5 @@
 import { ShoppingBag, ArrowRight } from 'lucide-react';
+import logoUrl from '../assets/logo.png';
 
 export default function Hero() {
   return (
@@ -43,7 +44,7 @@ export default function Hero() {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 flex items-center justify-center bg-brand-cream/30 p-8 lg:p-12">
         <img
           className="w-full max-w-md object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500"
-          src="assets/logo.png"
+          src={logoUrl}
           alt="Logo Zona Nuez"
           onError={(e) => {
             e.currentTarget.src = "https://images.unsplash.com/photo-1599577180579-755f5f534d1b?auto=format&fit=crop&q=80&w=1000";
