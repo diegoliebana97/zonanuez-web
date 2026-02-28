@@ -1,4 +1,4 @@
-import { ShieldCheck, Truck, Leaf, Heart } from 'lucide-react';
+import { ShieldCheck, Truck, Sprout, Heart } from 'lucide-react';
 
 const features = [
   {
@@ -14,7 +14,7 @@ const features = [
   {
     name: '100% Natural',
     description: 'Sin conservantes ni añadidos artificiales. Puro sabor natural.',
-    icon: Leaf,
+    icon: Sprout,
   },
   {
     name: 'Salud y Bienestar',

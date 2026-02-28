@@ -1,4 +1,5 @@
-import { Leaf, Instagram, Facebook, MessageCircle } from 'lucide-react';
+import { Instagram, Facebook, MessageCircle } from 'lucide-react';
+import faviconUrl from '../assets/favicon.webp';
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="col-span-1">
             <a href="#" className="flex items-center gap-2 mb-4">
-              <Leaf className="h-8 w-8 text-brand-green" />
+              <img src={faviconUrl} alt="Logo" className="h-8 w-8 object-contain" />
               <span className="font-bold text-2xl text-white tracking-tight">Zona Nuez</span>
             </a>
             <p className="text-brand-cream/80 text-sm leading-relaxed max-w-xs">

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Leaf } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import faviconUrl from '../assets/favicon.webp';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,7 +52,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <a href="#inicio" className="flex-shrink-0 flex items-center gap-2">
-              <Leaf className="h-8 w-8 text-brand-green" />
+              <img src={faviconUrl} alt="Logo" className="h-8 w-8 object-contain" />
               <span className="font-bold text-xl text-brand-brown tracking-tight">Zona Nuez</span>
             </a>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
