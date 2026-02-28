@@ -1,4 +1,4 @@
-import { ShoppingBag, ArrowRight } from 'lucide-react';
+import { ShoppingBag, ArrowRight, Instagram } from 'lucide-react';
 import logoUrl from '../assets/logo.png';
 
 export default function Hero() {
@@ -15,7 +15,7 @@ export default function Hero() {
               <p className="mt-3 text-base text-stone-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Lleva la mejor calidad a tu mesa. Seleccionamos cuidadosamente nuestras nueces, almendras y mixes para ofrecerte el mejor sabor y nutrición en cada bocado.
               </p>
-              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+              <div className="mt-5 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
                     href="#productos"
@@ -25,15 +25,26 @@ export default function Hero() {
                     <ShoppingBag className="ml-2 h-5 w-5" />
                   </a>
                 </div>
-                <div className="mt-3 sm:mt-0 sm:ml-3">
+                <div className="rounded-md shadow">
                   <a
                     href="https://wa.me/54922363955644?text=Hola,%20me%20gustaría%20hacer%20un%20pedido%20de%20frutos%20secos."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-brand-green bg-brand-cream hover:bg-[#E8D5B7] md:py-4 md:text-lg md:px-10 transition-colors"
                   >
-                    Pedir por WhatsApp
+                    WhatsApp
                     <ArrowRight className="ml-2 h-5 w-5" />
+                  </a>
+                </div>
+                <div className="rounded-md shadow">
+                  <a
+                    href="https://www.instagram.com/zonanuez"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-stone-200 text-base font-medium rounded-md text-brand-brown bg-white hover:bg-stone-50 md:py-4 md:text-lg md:px-10 transition-colors"
+                  >
+                    Instagram
+                    <Instagram className="ml-2 h-5 w-5 text-pink-600" />
                   </a>
                 </div>
               </div>
